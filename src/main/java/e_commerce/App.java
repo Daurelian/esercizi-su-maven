@@ -77,6 +77,15 @@ terminato ecc.
 
 
 
+        /*
+         * TODO:
+         *  1. Implementare ricerca prodotto per ID e per name
+         *  2. Aggiungere persistenza (DB)
+         *  3. Bonus: modificare il codice per aggiungere JUnit (es creare classe DummyDB dove
+         * gestire i prodotti e testare quella classe)
+         * */
+
+
 //        get("/allproducts", (req,res)->{
 //            res.type("application/json");
 //            return new Gson().toJsonTree(products.values());
